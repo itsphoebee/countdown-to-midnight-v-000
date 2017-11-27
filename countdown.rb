@@ -1,10 +1,12 @@
 #write your code here
 number = gets.to_i
 
-def countdown(input)
-  until input == 0
-    puts "#{input} SECOND(S)!"
-    input -=1
+def countdown(n)
+  n = gets.to_i
+  counter = n
+  until counter== 0
+    puts "#{number} SECOND(S)!"
+    counter -=1
   end
   puts "HAPPY NEW YEAR!"
 end
