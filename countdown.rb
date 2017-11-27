@@ -1,5 +1,5 @@
 #write your code here
-number = gets.to_i
+
 
 def countdown(n)
   n = gets.to_i
