@@ -1,10 +1,10 @@
 #write your code here
+number = gets.to_i
 
 def countdown(input)
-  input = gets.to_i
   until input == 0
     puts "#{input} SECOND(S)!"
-    input -= 1
+    input -=1
   end
   puts "HAPPY NEW YEAR!"
 end
