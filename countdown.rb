@@ -2,7 +2,7 @@
 
 
 def countdown(n)
-  n = gets.to_i
+  n = gets
   counter = n
   until counter== 0
     puts "#{number} SECOND(S)!"
